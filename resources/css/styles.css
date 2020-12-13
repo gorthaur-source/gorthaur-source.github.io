@@ -26,6 +26,7 @@
 1. PRIMARY STYLES
 --------------------------------- */
 
+
 html{ font-size: 100%; height: 100%; width: 100%; overflow-x: hidden; margin: 0px;  padding: 0px; touch-action: manipulation; }
 
 
@@ -122,8 +123,8 @@ b.light-color{ color: #444; }
 
 .main-area .desc{ margin: 20px auto; max-width: 500px; }
 	
-.main-area .notify-btn{ margin: 20px 0 50px; padding: 13px 35px; border-radius: 50px; border: 2px solid #F84982;
-	color: #fff; background: #F84982; }
+.main-area .notify-btn{ margin: 20px 0 50px; padding: 13px 35px; border-radius: 50px; border: 2px solid  #000981;
+	color: #fff; background: #000981; }
 
 .main-area .notify-btn:hover{ background: none; }
 
@@ -155,4 +156,13 @@ b.light-color{ color: #444; }
 	
 .main-area .social-btn > li > a > i[class*="linkedin"]{ background: #2A61D6; }
 .main-area .social-btn > li > a > i[class*="github"]{ background: #F43846; }
-
+.photo {
+	border-radius: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 20%;
+	height: 30%;
+	margin-top: 10px;
+	object-fit: contain;
+}
