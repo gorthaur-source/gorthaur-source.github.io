@@ -55,7 +55,9 @@ a:focus, a:active, a:hover,
 button:focus, button:active, button:hover,
 a b.light-color:hover{ text-decoration: none; color: #E45F74; }
 
-b{ font-weight: 500; }
+
+
+b{ font-weight: bold; }
 
 img{ width: 100%; }
 
@@ -106,8 +108,15 @@ b.light-color{ color: #444; }
 
 .position-static{ position: static; }
 
-.font-white{ color: #fff; }
+.font-white{ 
+	font-weight: bold;
+	color: rgb(255, 192, 74); 
+	font-size: larger;
 
+}
+title {
+	font-size: 50px;
+}
 
 /* ---------------------------------
 3. MAIN SECTION
@@ -156,6 +165,8 @@ b.light-color{ color: #444; }
 	
 .main-area .social-btn > li > a > i[class*="linkedin"]{ background: #2A61D6; }
 .main-area .social-btn > li > a > i[class*="github"]{ background: #F43846; }
+.main-area .social-btn > li > a > i[class*="envelope"]{ background: #333; }
+
 .photo {
 	border-radius: 50%;
 	display: block;
