@@ -103,10 +103,12 @@ b.light-color{ color: #444; }
 
 :-moz-placeholder { font-size: .9em; letter-spacing: 1px; }
 
-
+.test {
+	position:relative;
+}
 .full-height{ height: 100%; }
 
-.position-static{ position: static; }
+.position-static{ position: relative; }
 
 .font-white{ 
 	font-weight: bold;
@@ -127,10 +129,6 @@ title {
 .main-area{ position: relative; z-index: 1; height: 100%; padding: 0 20px;
 	box-shadow: 2px 5px 30px rgba(0,0,0,.3); color: #fff; }
 
-.main-area:after{ content:''; position: absolute; top: 0; bottom: 0;left: 0; right: 0; z-index: -1;  
-	opacity: .4; background: #000; }
-
-.main-area .desc{ margin: 20px auto; max-width: 500px; }
 	
 .main-area .notify-btn{ margin: 20px 0 50px; padding: 13px 35px; border-radius: 50px; border: 2px solid  #000981;
 	color: #fff; background: #000981; }
@@ -153,7 +151,7 @@ title {
 
 /* SOCIAL BTN */
 
-.main-area .social-btn{ position: absolute; bottom: 30px; width: 100%; left: 50%; transform: translateX(-50%); }
+.main-area .social-btn{ position: relative; bottom: 30px; width: 100%; left: 50%; transform: translateX(-50%); }
 
 
 .main-area .social-btn .list-heading{ display: block; margin-bottom: 15px; }
@@ -162,7 +160,7 @@ title {
 	font-size: 1.04em; margin: 0 5px; }
 
 .main-area .social-btn > li > a > i:hover{ background: #fff!important; }	
-	
+
 .main-area .social-btn > li > a > i[class*="linkedin"]{ background: #2A61D6; }
 .main-area .social-btn > li > a > i[class*="github"]{ background: #F43846; }
 .main-area .social-btn > li > a > i[class*="envelope"]{ background: #333; }
